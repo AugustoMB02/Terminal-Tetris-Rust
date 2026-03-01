@@ -13,14 +13,28 @@ A classic Tetris clone built entirely in Rust, designed to be played directly on
   * Full-line clears with block shifting.
 * **Zero Dependencies Outside Shell:** Plays perfectly raw inside Bash or Fish.
 
-## Installation
+## Installation and Running
 
+### Development Mode (with Cargo)
 Ensure you have [Rust and Cargo](https://rustup.rs/) installed, then clone and run:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Terminal-Tetris-Rust.git
 cd Terminal-Tetris-Rust
 cargo run
+```
+
+### Standalone Binary (without Cargo)
+To run the game on a machine without `cargo` installed, first compile it in release mode:
+
+```bash
+cargo build --release
+```
+
+This will produce a standalone executable at `target/release/Tetris`. You can move this file anywhere (such as your `/usr/local/bin` directory) and run it directly:
+
+```bash
+./target/release/Tetris
 ```
 
 ## Controls
