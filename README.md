@@ -19,7 +19,7 @@ A classic Tetris clone built entirely in Rust, designed to be played directly on
 Ensure you have [Rust and Cargo](https://rustup.rs/) installed, then clone and run:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Terminal-Tetris-Rust.git
+git clone https://github.com/AugustoMB02/Terminal-Tetris-Rust.git
 cd Terminal-Tetris-Rust
 cargo run
 ```
